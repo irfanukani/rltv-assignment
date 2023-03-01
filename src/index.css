@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Tomorrow", sans-serif;
+}
+
+.bg-gradient-gray {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+}
